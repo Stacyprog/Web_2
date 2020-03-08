@@ -1,0 +1,137 @@
+
+@font-face {
+    font-family: Arial;
+    font-weight: normal;
+}
+
+body {
+    background: url("Jaba.jpg")0/cover fixed;
+    font-family: "Courier New", monospace;
+    font-size: smaller;
+}
+
+.main_table {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.329);
+}
+
+.up-text-wrap {
+    font-family: cursive;
+    color: #151515;
+    opacity: 0.9;
+    font-size: x-large;
+    margin: auto;
+    margin-bottom: 0.5%;
+    padding-bottom: 0;
+    width: auto;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.header {
+    background: hsla(0,0%,100%,.3);
+    padding: 1%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right:5%;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.main_table > tr > td, .main_table > tbody > tr > td {
+    text-align: center;
+}
+
+.control {
+    background: hsla(0,0%,100%,.3);
+    margin: 3%;
+}
+
+.graph-view {
+    cursor: pointer;
+    width: 500px;
+    margin: 0 20px;
+}
+
+
+.radiobox > label {
+    display: inline-block;
+}
+
+.radiobox > label > input {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.xxx, .yyy, .rrr {
+    border-color: green;
+    border-style: solid;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.panel_r {
+    white-space: nowrap;
+
+}
+
+.panel_r input {
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #008000, #006400);
+    font-family: "Comic Sans MS", cursive;
+    font-size: large;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.submit-btn:hover {
+    border-color: darkcyan;
+}
+
+.submit-btn:active {
+    background: linear-gradient(to bottom, #006400, #008000);
+}
+
+
+#graph {
+    user-select: none;
+}
+
+#result_frame {
+    width: 100%;
+    height: 0;
+    border: none;
+    user-select: none;
+}
+
+#errors {
+    position: absolute;
+    top: 33%;
+    right: 9%;
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+}
+
+#error1, #error2, #error3 {
+    color: red;
+    font-weight: bold
+}
+
